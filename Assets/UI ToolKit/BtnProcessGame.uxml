@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20ToolKit/StyleSheets/backMainMenu-button.uss?fileID=7433441132597879392&amp;guid=6413ef8bdb0809d41a9504772918cbfa&amp;type=3#backMainMenu-button" />
+    <ui:VisualElement name="backGround" style="position: absolute; width: 1920px; height: 156px; background-color: rgba(0, 255, 248, 0);">
+        <ui:VisualElement name="Panel" style="height: 160px; background-color: rgb(243, 160, 127);">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="backMainMenuBtn" class="back-button" style="align-items: center;" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restartGameBtn" class="back-button" style="align-items: center; position: absolute; left: 1610px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

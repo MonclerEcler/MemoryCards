@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/btn-chooseTypeCards.uss?fileID=7433441132597879392&amp;guid=337525936cb28554290270c67c780366&amp;type=3#btn-chooseTypeCards" />
+    <ui:VisualElement name="backGround" style="width: 1920px; height: 1080px; background-color: rgb(0, 246, 250); align-items: center; justify-content: flex-start; flex-shrink: 0; position: absolute; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-center; top: 0; left: 2px;">
+        <ui:Label text="Type Cards" display-tooltip-when-elided="true" name="textTypeCards" style="width: 1920px; height: 100px; color: rgb(0, 120, 233); font-size: 70px; -unity-text-align: middle-center;" />
+        <ui:Button text="Number Cards" display-tooltip-when-elided="true" name="btnNamberCards" class="btn-chooseTypeCards" style="flex-direction: column; align-items: stretch; justify-content: flex-start; width: 300px; height: 70px;" />
+        <ui:Button text="Fruits Cards" display-tooltip-when-elided="true" name="btnNumberCards" class="btn-chooseTypeCards" style="flex-direction: column; align-items: stretch; justify-content: flex-start; width: 300px; height: 70px; top: 199px;" />
+    </ui:VisualElement>
+</ui:UXML>

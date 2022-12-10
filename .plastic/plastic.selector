@@ -1,0 +1,4 @@
+repository "Memory Cards@FiveSystem@cloud"
+  path "/"
+    br "/main"
+    co "/main"

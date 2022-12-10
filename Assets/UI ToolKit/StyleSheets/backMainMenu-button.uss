@@ -1,0 +1,62 @@
+.back-button {
+    align-items: center;
+    background-color: rgba(255, 4, 117, 255);
+    -unity-text-align: middle-center;
+    font-size: 45px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+    position: absolute;
+    justify-content: flex-start;
+}
+
+.back-button:hover {
+    align-items: center;
+    background-color: rgb(149, 8, 82);
+    -unity-text-align: middle-center;
+    font-size: 45px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+    rotate: -10deg;
+    color: rgba(255, 255, 255, 255);
+}
+
+.visual-icon-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    background-color: rgb(14, 14, 14);
+    border-width: 1px;
+    border-color: rgb(75, 75, 75);
+}
+.visual-icon {
+    height: 100%;
+    width: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.slot-icon-highlighted {
+    border-width: 1px;
+    border-color: rgb(202, 158, 0);
+    transform-origin: center;
+    position: absolute;
+    visibility: hidden;
+}
